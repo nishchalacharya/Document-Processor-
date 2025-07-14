@@ -23,3 +23,4 @@ A FastAPI-based service for processing PDFs/text documents, generating embedding
    git clone https://github.com/nishchalacharya/Document-Processor-.git
    cd Document-Processor
    pip install -r requirements.txt
+   uvicorn main:app --reload
