@@ -28,7 +28,6 @@ A FastAPI-based service for processing PDFs/text documents, generating embedding
 SUPABASE_URL=your-supabase-url
 SUPABASE_KEY=your-supabase-key
 EMBEDDING_MODEL=your-model-name
-
 ```bash
 3.Run API:
    uvicorn main:app --reload
