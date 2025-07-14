@@ -23,11 +23,12 @@ A FastAPI-based service for processing PDFs/text documents, generating embedding
    git clone https://github.com/nishchalacharya/Document-Processor-.git
    cd Document-Processor
    pip install -r requirements.txt
-
+```bash
 2.Configure environment variables
 SUPABASE_URL=your-supabase-url
 SUPABASE_KEY=your-supabase-key
 EMBEDDING_MODEL=your-model-name
 
+```bash
 3.Run API:
    uvicorn main:app --reload
